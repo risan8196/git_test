@@ -1,0 +1,118 @@
+# hitron camera
+rtsp:/101.99.3.151/1/stream1
+
+
+# techwin
+
+
+vi_1 = "rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/24/media.smp"
+ch : 18, 19, 20, 21, 22 지상 , 23 지상, 24 B1, 25 B1, 26 B1 복도, 27 B1 복도, 28(지상)
+
+
+B1 -> B2
+18    19
+20    21
+
+
+F1    B1
+23    24,25
+
+
+
+B1 : 24, 26(복도)
+B1 : , 25
+
+****************
+el detect list :
+****************
+wheelchair
+stroller
+silvercar
+scuter
+door_open
+door_close
+
+
+*******************
+yolov5 detect list:
+*******************
+person
+bicycle
+car
+motorcycle
+airplane
+bus
+train
+truck
+boat
+traffic light
+fire hydrant
+stop sign
+parking meter
+bench
+bird
+cat
+dog
+horse
+sheep
+cow
+elephant
+bear
+zebra
+giraffe
+backpack
+umbrella
+handbag
+tie
+suitcase
+frisbee
+skis
+snowboard
+sports ball
+kite
+baseball bat
+baseball glove
+skateboard
+surfboard
+tennis racket
+bottle
+wine glass
+cup
+fork
+knife
+spoon
+bowl
+banana
+apple
+sandwich
+orange
+broccoli
+carrot
+hot dog
+pizza
+donut
+cake
+chair
+couch
+potted plant
+bed
+dining table
+toilet
+tv
+laptop
+mouse
+remote
+keyboard
+cell phone
+microwave
+oven
+toaster
+sink
+refrigerator
+book
+clock
+vase
+scissors
+teddy bear
+hair drier
+toothbrush

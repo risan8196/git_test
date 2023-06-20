@@ -1,0 +1,26 @@
+{
+    "title" : "2 E/L",
+    "IO_ip" : "10.128.17.49",
+    "IO_port" : 502,
+    "name" : "3,5 out",
+    "up" : { "cam1": "rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/18/media.smp"
+               },
+    "down" : {  "cam2": "rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/19/media.smp"
+                 },
+    "up_detect" : {"wheelchair": 0.5,
+                       "stroller": 0.7,
+                       "silvercar": 0.7,
+                       "scuter": 0.7,
+                       "door_open": 0.8,
+                       "door_close": 0.8},
+    "down_detect" : {"wheelchair": 0.5,
+                       "stroller": 0.7,
+                       "silvercar": 0.7,
+                       "scuter": 0.7,
+                       "door_open": 0.5,
+                       "door_close": 0.5},
+    "up_delay_time" : 6,
+    "down_delay_time" : 6,
+    "up_call_relay_port": 0,
+    "down_call_relay_port": 5
+}

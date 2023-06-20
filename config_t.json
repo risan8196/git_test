@@ -1,0 +1,22 @@
+{
+            "up" : { "cam1": "rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/22/media.smp",
+                     "cam2": "rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/28/media.smp"
+                     },
+            "down" : {  "cam2": "rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/23/media.smp",
+                        "cam1": "rtsp://admin:asdQWE12!%40@101.122.3.11:558/LiveChannel/27/media.smp"
+                       },
+            "up_detect" : {"wheelchair": 0.5,
+                             "stroller": 0.7,
+                             "silvercar": 0.7,
+                             "scuter": 0.7,
+                             "door_open": 0.8,
+                             "door_close": 0.8},
+            "down_detect" : {"wheelchair": 0.5,
+                             "stroller": 0.7,
+                             "silvercar": 0.7,
+                             "scuter": 0.7,
+                             "door_open": 0.5,
+                             "door_close": 0.5},
+            "up_delay_time" : 15,
+            "down_delay_time" : 15
+        }
